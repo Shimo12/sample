@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="japanese">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div id="loader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+        <div class="image">
+            <video preload=“auto” src="1.mp4" autoplay muted loop></video>
+            <div class="header-text">
+                <h1><span>N</span>ara<br><span>U</span>nivercity of<br><span>E</span>ducation</h1>
+                <h2>Tachi lab</h2>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        window.onload = ()=>{
+            const loader = document.getElementById('loader');
+            loader.classList.add('loaded');}
+    </script>
+</body>
+</html>
